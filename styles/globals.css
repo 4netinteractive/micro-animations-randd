@@ -1,3 +1,10 @@
+html {
+  --blue: #159ce4;
+  --lgt-blue: #67cff3;
+  --drk-blue: #147ec1;
+  --black: #32383c;
+}
+
 html,
 body {
   padding: 0;
@@ -13,4 +20,9 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.section {
+  padding: 0 40px;
+  margin-bottom: 40px;
 }
